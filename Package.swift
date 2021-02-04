@@ -27,7 +27,7 @@ let package = Package(
             name: "XGPSSDK",
             dependencies: [],
             sources: [".", "NTrip"],
-            publicHeadersPath: ".",
+            publicHeadersPath: "NTrip",
             cSettings: [.headerSearchPath("NTrip/")]),
         .target(
             name: "XGPSSDKSwift",
